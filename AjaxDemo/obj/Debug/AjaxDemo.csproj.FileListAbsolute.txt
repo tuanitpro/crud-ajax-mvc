@@ -40,3 +40,7 @@ D:\PROJECT\crud-ajax-mvc\AjaxDemo\bin\System.Web.Mvc.xml
 D:\PROJECT\crud-ajax-mvc\AjaxDemo\obj\Debug\AjaxDemo.dll
 D:\PROJECT\crud-ajax-mvc\AjaxDemo\obj\Debug\AjaxDemo.pdb
 D:\PROJECT\crud-ajax-mvc\AjaxDemo\obj\Debug\AjaxDemo.csprojResolveAssemblyReference.cache
+D:\PROJECT\crud-ajax-mvc\AjaxDemo\bin\EntityFramework.dll
+D:\PROJECT\crud-ajax-mvc\AjaxDemo\bin\EntityFramework.SqlServer.dll
+D:\PROJECT\crud-ajax-mvc\AjaxDemo\bin\EntityFramework.xml
+D:\PROJECT\crud-ajax-mvc\AjaxDemo\bin\EntityFramework.SqlServer.xml

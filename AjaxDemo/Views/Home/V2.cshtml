@@ -1,0 +1,69 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Student - CRUD using Ajax in ASP.NET MVC - Version2</title>
+
+    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="/Scripts/bootstrap.js"></script>
+    <script src="/Scripts/student_v2.js"></script>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1>Student - CRUD using Ajax in ASP.NET MVC - Version2</h1>
+        <div id="list">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Picture</th>
+                        <th>Name</th>
+                        <th>Status</th>
+                        <th>Score</th>
+                        <th>Action</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>                             
+                            <img   src="https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/256/MS_Office_Upload_Center.png" width="64" id="btnSelectImage" class="btnSelectImage" onclick="return _doUpload(this); return false;" style="cursor:pointer"/>
+                            <input type="file" class="fileUpload" style="display:none" />
+                            <input type="text" class="linkFile" style="display:none" />
+                          
+                        </th>
+                        <th><input type="text" class="form-control name" /></th>
+                        <th>
+                            <select class="form-control status">
+                                <option value="New">New</option>
+                                <option value="Old">Old</option>
+                            </select>
+                        </th>
+                        <th><input type="number" class="form-control score" min="1" max="10" step="1" /></th>
+                        <th>
+                            <button class="btn btn-primary" onclick="return _add(this)">Add new</button>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody class="tbody"></tbody>
+            </table>
+        </div>
+        <button type="button" class="btn btn-primary btn-lg" onclick="return _getAll();">
+            Load
+        </button>
+        <div id="message" style="color:green"></div>
+        <hr />
+        <a href="http://tuanitpro.com">http://tuanitpro.com</a>
+    </div>
+
+    <!-- Modal -->
+
+
+</body>
+</html>
